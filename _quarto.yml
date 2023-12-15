@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Myblog"
@@ -12,7 +13,8 @@ website:
         href: https://twitter.com
 format:
   html:
-    theme: cosmo
+    # other options i like [darkly, lumen, minty, sandstone, spacelab]
+    theme: flatly
     css: styles.css
 
 
